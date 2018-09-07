@@ -9,44 +9,59 @@
                                     Global Styles
 ---------------------------------------------------------------------------------------*/
 body {
-   background:white;
+   background:black;
    text-align: center;
+   height: 100%;
 }
 
 .container {
     display: flex;
-    flex-direction: column;
-}
-
-.top{
-    background: red;
-    min-height:160px; 
-    flex: 6
-}
-
-
-.bottom {
-    flex: 6;
-    background: black;
-    min-height: 170px;
-    margin-bottom: 10px;
     color: white;
+    min-height: 340px;
 }
 
+.right-side {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    background-image: url("https://images.unsplash.com/photo-1472437774355-71ab6752b434?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=ac19ae2123dac470f850012357837c7f");
+    background-size: cover;
+    min-width: 50%;
+    
+
+}
+
+.left-side {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    background: black;
+    min-width: 50%;
+    background-image: url("https://images.unsplash.com/photo-1526925539332-aa3b66e35444?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=798cd2305446ee8ab847bd56e54dd9c2");
+    background-size: cover;
+}
+
+footer{
+    display:flex;
+    color:white;
+}
 /*-------------------------------------------------------------------------------------
                                     Main Heading styles
 ---------------------------------------------------------------------------------------*/
 .main-heading-wrapper {
-    background: black;
-    background-image: url("https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=672eb03fafd069bd5f8a81602b54a3d3/100x100");
+
+    background-image: url("https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=145f27285ccd3031e7598739c7f5e6c1/50x50");
     background-size:cover;
     max-height: 200px;
+
 }
 
 
 .main-heading {
     background: ;
-    color: black;
+    color: white;
     text-align: center;
     font-weight: bold;
     font-size: 15px;
